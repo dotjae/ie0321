@@ -1,3 +1,25 @@
+#	   Universidad de Costa Rica
+#	Escuela de Ingenieria Electrica
+#		  IE-0321
+#		  III-23
+#
+#	       	 TAREA 2
+#
+#	       Jose Flores
+# 	         B82994
+
+# El siguiente codigo consiste en un programa en lenguaje ensamblador MIPS,
+#  el cual consta de un programa principal, el cual llama a una funcion
+#   encargada de iterar por un "string" almacenado en un arreglo de
+#     caracteres ASCIIZ, y determinar si el uso de los simbolos
+#      de parentesis "(", ")", "[", "]", "{", "}"; es valido
+#       o invalido, de acuerdo a las especificaciones que
+#        se encuentran en el enunciado de la tarea.
+#	La funcion principal se encarga ademas de imp-
+#     rimir el string a evaluar, al igual que si el uso 
+#    de parentesis es valido o invalido, dependiendo del
+#   valor de retorno de la funcion llamada "Parentheses."
+
 .data 
 	String: .asciiz "()[]{}{{{()}[]}()}"
 	string: .asciiz "String: \n\n"
